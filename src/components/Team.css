@@ -1,0 +1,108 @@
+.team {
+  background: #f9fafb;
+  padding: 60px 20px;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.hover-color-1:hover {
+  background-color: #e0f2fe; 
+}
+.hover-color-2:hover {
+  background-color: #fef3c7; 
+}
+.hover-color-3:hover {
+  background-color: #d1fae5;
+}
+.hover-color-4:hover {
+  background-color: #fde2e2; 
+}
+.hover-color-5:hover {
+  background-color: #f3e8ff; 
+}
+.hover-color-6:hover {
+  background-color: #fff1f2; 
+}
+.hover-color-7:hover {
+  background-color: #fff7ed; 
+}
+
+.avatar-icon {
+  width: 60px;
+  height: 60px;
+  background: #6b7280;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.avatar-svg {
+  width: 28px;
+  height: 28px;
+}
+
+.team-info {
+  padding: 0 10px;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.team-role {
+  color: #3b82f6;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
